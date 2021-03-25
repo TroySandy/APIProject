@@ -65,7 +65,7 @@ table {
 table,
 tr {
   border: 1px solid rgba(255, 0, 0, 0.657);
-  max-width: 75%;
+  max-width: 60%;
 }
 
 td {
