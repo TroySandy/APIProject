@@ -11,7 +11,6 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <!-- Google font style sheet if needed -->
     <link rel="stylesheet" href="./css/search.css" />
     <link
       rel="apple-touch-icon"
@@ -32,8 +31,11 @@
     />
   </head>
   <body>
-    <div class="container-fluid position-relative">
-      <div class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(143, 15, 15)">
+    <div class="container-fluid position-relative"> <!--nav bar-->
+      <div
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: rgb(143, 15, 15)"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">F1</a>
           <button
@@ -75,8 +77,8 @@
       <h1 class="text-center">Search F1 Results</h1>
     </div>
 
+    <!--search form-->
     <form action="submit" class="w-50 formArea">
-      <!-- search form fields -->
 
       <div class="seasonSelect">
         <div class="input-group mb-3">
@@ -1345,7 +1347,7 @@
           </select>
         </div>
       </div>
-      <div class="buttonArea">
+      <div class="buttonArea"> <!--submit and reset button-->
         <button type="submit" class="btn btn-success btn-lg btnSub">
           Submit
         </button>
@@ -1359,19 +1361,17 @@
         </button>
       </div>
     </form>
-
+      <!-- area that table will populate -->
     <section id="results"></section>
 
-    <!-- Results Navigation -->
     
+    <!-- Results Navigation -->
     <nav class="resultNav">
       <button type="button" class="prev btn btn-light">Previous Race</button>
-
       <button type="button" class="next btn btn-light">Next Race</button>
     </nav>
 
     <script script src="./js/api.js"></script>
-    <!-- additional javascript links here -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
