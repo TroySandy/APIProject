@@ -3,7 +3,6 @@ img {
   padding: 10px;
   background-color: silver;
 }
-
 .pictureFrame {
   position: relative;
   font-size: 10vw;
@@ -13,7 +12,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
 .letsGo {
   color: rgb(251, 251, 251);
   background-color: rgba(0, 0, 0, 0.9);
@@ -23,7 +21,6 @@ img {
   font-weight: bolder;
   border-radius: 25% 10%;
 }
-
 video {
   object-fit: cover;
   width: 100%;

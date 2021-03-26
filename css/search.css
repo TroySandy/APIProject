@@ -1,7 +1,6 @@
 body {
   background-color: rgb(73, 71, 71);
 }
-
 .searchText {
   margin: 50px;
 }
@@ -12,18 +11,15 @@ body {
 .buttonArea {
   text-align: center;
 }
-
 .btnSub {
   opacity: 0.75;
 }
-
 form {
   padding: 30px;
   border-top: 3px solid red;
   border-right: 3px solid red;
   border-radius: 25px;
 }
-
 section {
   position: relative;
   margin: auto;
@@ -31,7 +27,6 @@ section {
 
   padding: 20px;
 }
-
 article {
   position: relative;
   margin: auto;
@@ -41,23 +36,19 @@ article {
   width: 75%;
   max-width: 600px;
 }
-
 table {
   position: relative;
   margin: auto;
   background-color: lightgray;
 }
-
 .prev {
   margin-left: 5%;
   float: left;
 }
-
 .next {
   margin-right: 5%;
   float: right;
 }
-
 .prev,
 .next {
   opacity: 0.75;
@@ -67,7 +58,6 @@ tr {
   border: 1px solid rgba(255, 0, 0, 0.657);
   max-width: 60%;
 }
-
 td {
   padding: 2px 10px 2px 10px;
 }
